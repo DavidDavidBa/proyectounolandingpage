@@ -1,0 +1,327 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+}
+header, main {
+  width: 98%;
+  margin: 0.2em;
+  padding: 0.4em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.logo {
+  width: 100%;
+  margin: 0.1em;
+  padding: 0.1em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.PQP {
+  width: 90%;
+  margin: 0.1em;
+  padding: 0.1em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+h1 {
+  width: 100%;
+  margin: 2em 0.1em 0.1em 0.1em;
+  padding: 0.4em;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  font-size: 100%;
+  color: #f5ff64;
+  background-color: #88d2ed;
+  border: 0.1em solid #f5ff64;
+  border-radius: 1em;
+  overflow: hidden;
+}
+.hidrasalimagen {
+  width: 100%;
+  margin: 0.2em;
+  padding: 0.4em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.hidra, .sal, .descuento, .condiciones {
+  width: 100%;
+  margin: 0.1em;
+  padding: 0.4em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+p {
+  width: 100%;
+  margin: 0.1em;
+  padding: 0.4em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: ivory;
+  font-size: larger;
+  overflow: hidden;
+}
+img {
+  width: 100%;
+  margin: 0.1em;
+  padding: 0.1em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+a {
+  text-decoration: none;
+  margin: 0.1em;
+  padding: 0.1em;
+}
+.sal a > img {
+  border-radius: 10em;
+  transform: rotate(-25deg);
+  width: 90%;
+  margin: 1.1em;
+}
+ul {
+  width: 100%;
+  margin: 0.1em;
+  padding: 0.4em;
+}
+.descuento > ul {
+  transform: skew(10deg, 10deg);
+  border: 0.1em solid red;
+  width: 40%;
+  border-radius: 6em;
+  background: gold;
+  overflow: hidden;
+}
+.descuento > ul > li {
+  width: 100%;
+  margin: 0.1em;
+  padding: 0.4em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 100%;
+}
+.correo {
+  width: 100%;
+  margin: 0.1em;
+  padding: 0.4em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.correo label {
+  width: 100%;
+  margin: 0.5em;
+  padding: 0.4em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 100%;
+  overflow: hidden;
+}
+.correo input {
+  width: 80%;
+  margin: 0.5em;
+  padding: 0.4em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 100%;
+}
+.correo button {
+  width: 35%;
+  margin: 0.5em;
+  padding: 0.4em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 100%;
+  border: 0.1em solid grey;
+  border-radius: 1em;
+  overflow: hidden;
+}
+.correo button:hover {
+  transform: rotate(-4deg);
+  background: rgb(139, 252, 252);
+}
+.razones {
+  width: 100%;
+  margin: 0.1em;
+  padding: 0.4em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  border: 0.1em solid grey;
+  background: #cdcdcd;
+  filter: drop-shadow(2px 4px 6px black);
+  overflow: hidden;
+}
+h2 {
+  width: 100%;
+  margin: 0.1em;
+  padding: 0.4em;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  font-size: 100%;
+  border-bottom: 0.1em solid white;
+}
+.razones > ol {
+  width: 100%;
+  margin: 0.1em;
+  padding: 0.4em;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.razones ol li {
+  width: 100%;
+  margin: 0.1em;
+  padding: 0.4em;
+  list-style: block;
+  list-style-position: inside;
+}
+footer {
+  width: 98%;
+  margin: 0.2em;
+  padding: 0.4em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  border: 0.1em solid rgba(128, 128, 128, 0.5);
+}
+footer cite {
+  width: 100%;
+  margin: 0.1em;
+  padding: 0.4em;
+  display: flex;
+  align-items: center;
+  font-size: 0.8em;
+  font-family: monospace;
+  border: 0.2em solid rgba(0, 0, 0, 0.3);
+  color: black;
+  background-color: #e5e5e573;
+  flex-direction: column;
+  overflow: hidden;
+}
+body {
+  background-image: url(./IMAGENES/logo.deporte.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+  padding: 1em;
+}
+
+
+
+
+
+@media screen and (min-width: 376px) and (max-width: 768px) {
+h1 {
+  justify-content: center;
+  font-size: 110%;
+}
+.sal a > img {
+  border-radius: 13em;
+  width: 60%;
+  margin-left: 5em;
+}
+.descuento > ul > li {
+  font-size: 120%;
+}
+.correo label {
+  font-size: 120%;
+}
+.correo input {
+  width: 60%;
+}
+.correo button {
+  width: 25%;
+}
+.razones ol li {
+  font-size: 105%;
+}
+footer {
+  flex-direction: row;
+}
+footer cite {
+  flex-direction: row;
+  font-size: 1em;
+}
+}
+
+
+
+@media screen and (min-width: 769px) {
+.PQP {
+width: 82%;
+}
+h1 {
+justify-content: center;
+font-size: 130%;
+}
+p {
+font-size: x-large;
+}
+.hidrasalimagen {
+flex-direction: row;
+}
+.sal a > img {
+border-radius: 13em;
+width: 80%;
+}
+.descuento > ul {
+transform: rotate3d(1, 1, 1, -20deg);
+width: 30%;
+}
+.descuento > ul > li {
+font-size: 140%;
+}
+.correo {
+flex-direction: row;
+}
+.correo label {
+font-size: 130%;
+width: 60%;
+}
+.correo input {
+width: 80%;
+}
+.correo button {
+width: 30%;
+}
+h2 {
+justify-content: center;
+font-size: 120%;
+}
+.razones ol li {
+font-size: 110%;
+}
+footer {
+flex-direction: row;
+}
+footer cite {
+flex-direction: row;
+font-size: 1.2em;
+}
+}
